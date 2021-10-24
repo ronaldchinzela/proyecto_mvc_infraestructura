@@ -1,5 +1,6 @@
 <?php
     require_once("Configuraciones/config.php");
+    require_once("Helpers/Helpers.php");
 //función empty para indicar si existe la variable enviada por la url, y con ! indicamos lo contrario
 //para poder retornar a la página home cuando no se envíe ningun parámetro por la url
      $url = !empty($_GET['url']) ? $_GET['url']: 'home/home';
