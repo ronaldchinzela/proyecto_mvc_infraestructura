@@ -5,6 +5,24 @@
          return BASE_URL;
      } 
 
+     //función para retornar a la url de Assets
+     function media()
+     {
+         return BASE_URL."/Assets";
+     }
+
+     //funciónes para llamar a los archivos de Views/Template
+     function headerAdmin($data="")
+     {
+         $view_header = "Views/Template/header_admin.php";
+         require_once ($view_header);
+     }
+     function footerAdmin($data="")
+     {
+         $view_footer = "Views/Template/footer_admin.php";
+         require_once ($view_footer);
+     }
+
      //función para mostrar los objetos del array de manera formateada
      function dep($data)
      {

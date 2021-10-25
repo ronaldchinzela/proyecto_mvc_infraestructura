@@ -1,5 +1,5 @@
 <?php
-     const BASE_URL = "http://localhost/SGTRT/";
+     const BASE_URL = "http://localhost/SGTRT";
 
      //función php para la zona horario
      date_default_timezone_set('America/Lima');

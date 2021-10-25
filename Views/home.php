@@ -4,16 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $data['page_tag']; ?></title>
+    <title>Mini framework - Canvia</title>
 </head>
 <body>
-    <?php 
-    dep($data);  
-    ?>
-    <section id="<?php echo $data['page_id']; ?>">
-        <h1><?php echo $data['page_title']; ?></h1>
-        <p><?php echo $data['page_content'] ?></php>
-    </section>
-    <?php echo SMONEY.formatMoney(52500); ?>
+        <p>Mini framework v1.0 - <a href="https://google.com">www.google.com</a></p>
 </body>
 </html>
