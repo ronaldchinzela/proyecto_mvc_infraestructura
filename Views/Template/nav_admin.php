@@ -23,9 +23,9 @@
         <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview">
         <i class="app-menu__icon fa fa-users" aria-hidden="true"></i><span class="app-menu__label">Usuarios</span><i class="treeview-indicator fa fa-angle-right"></i></a>
           <ul class="treeview-menu">
-          <li><a class="treeview-item" href="<?= base_url(); ?>/consumo_recursos">
+          <li><a class="treeview-item" href="<?= base_url(); ?>/nuevo_usuario">
           <i class="fa fa-share" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Nuevo Usuario</a></li>
-            <li><a class="treeview-item" href="<?= base_url(); ?>/tarifario">
+            <li><a class="treeview-item" href="<?= base_url(); ?>/usuarios">
             <i class="fa fa-share" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Gestionar Usuario</a></li>
           </ul>
         </li>
@@ -33,7 +33,8 @@
       <!-- menu mantenimiento -->
         <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview">
         <i class="app-menu__icon fa fa-cog" aria-hidden="true"></i><span class="app-menu__label">Calculadora SOW</span><i class="treeview-indicator fa fa-angle-right"></i></a>          
-          <ul class="treeview-menu">
+        <i class="fas fa-balance-scale"></i>  
+        <ul class="treeview-menu">
           <li><a class="treeview-item" href="<?= base_url(); ?>/consumo_recursos">
           <i class="fa fa-share" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;SOW</a></li>
             <li><a class="treeview-item" href="<?= base_url(); ?>/tarifario">

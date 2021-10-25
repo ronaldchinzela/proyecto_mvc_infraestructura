@@ -2,3 +2,247 @@
     width: 48px;
     padding: 6px;
 }
+
+/*estilos nuevo_usuario*/
+.table-responsive{
+    height: 450px;
+    position: relative;
+}
+#form-generar-usuario{
+    position: relative;
+    top: 5px;
+    border: 0px;
+    width: auto;
+    height: 420px;
+    box-sizing: inherit;
+    box-shadow: inherit;
+  }
+  
+  .btn-generar-usuario{
+    box-sizing: border-box;
+    top: 370px;
+    position: absolute;
+    left: 420px;
+    width: 120px;
+    padding-left: 10px;
+    padding-right: 8px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background-color: rgb(179, 255, 108) ;
+  }
+  
+  .ver-listado-usuarios{
+    box-sizing: border-box;
+    top: -30px;
+    position: relative;
+    left: 555px;
+    width: 120px;
+    padding-left: 10px;
+    padding-right: 8px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #000;
+    color: #000;
+    background-color: #c1cdec;
+  }
+  
+  .alert{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    margin: 20px auto;
+    top: -35px;
+  }
+  .msg_error{
+    color: #da0707;
+  }
+  .msg_exitoso{
+    color: #1da302;
+    position: relative;
+    right: 30px;
+    top: 25px;
+  }
+  .alert p{
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    border: 0px;
+    transform: translateX(-50%) translateY(-50%);
+    position: relative;
+    font-size: 2em;
+    padding-left: 0px;
+    white-space: nowrap;
+  }
+  
+  #p-user{
+    right: -285px;
+    color: #1a7e04;
+    position: relative;
+    font-size: 2em;
+    top: -5px;
+  }
+  
+  #input-nombre-nuevo-usuario {
+    margin: -4px;
+    position: relative;
+    top: -22px;
+    left: 65px;
+    width: 208px;
+    padding: 0px;
+    display: block;
+    border: 2px solid #000000;
+    height: 30px;
+    border-radius: inherit;
+    font: 14px Opensans;
+    margin-left: 29px;
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+  #span-nombre{
+    position: relative;
+    font-weight: bold;
+    top: 15px;
+    left: 100px;
+  }
+  
+  #input-apellido-nuevo-usuario {
+    margin: -4px;
+    position: relative;
+    top: -22px;
+    left: 65px;
+    width: 208px;
+    padding: 0px;
+    display: block;
+    border: 2px solid #000000;
+    height: 30px;
+    border-radius: inherit;
+    font: 14px Opensans;
+    margin-left: 29px;
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+  #span-apellido{
+    position: relative;
+    font-weight: bold;
+    top: 15px;
+    left: 100px;
+  }
+  
+  #input-correo-nuevo-usuario {
+    margin: -4px;
+    position: relative;
+    top: -22px;
+    left: 65px;
+    width: 208px;
+    padding: 0px;
+    display: block;
+    border: 2px solid #000000;
+    height: 30px;
+    border-radius: inherit;
+    font: 14px Opensans;
+    margin-left: 29px;
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+  #span-correo{
+    position: relative;
+    font-weight: bold;
+    top: 15px;
+    left: 100px;
+  }
+  
+  #input-celular-nuevo-usuario {
+    margin: -4px;
+    position: relative;
+    top: -22px;
+    left: 65px;
+    width: 208px;
+    padding: 0px;
+    display: block;
+    border: 2px solid #000000;
+    height: 30px;
+    border-radius: inherit;
+    font: 14px Opensans;
+    margin-left: 29px;
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+  #span-celular{
+    position: relative;
+    font-weight: bold;
+    top: 15px;
+    left: 100px;
+  }
+  
+  #input-password-nuevo-usuario {
+    margin: -4px;
+    position: relative;
+    top: -22px;
+    left: 65px;
+    width: 208px;
+    padding: 0px;
+    display: block;
+    border: 2px solid #000000;
+    height: 30px;
+    border-radius: inherit;
+    font: 14px Opensans;
+    margin-left: 29px;
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+  #span-password{
+    position: relative;
+    font-weight: bold;
+    top: 15px;
+    left: 100px;
+  }
+  
+  .cbo-rol{
+    margin: -4px;
+    position: relative;
+    top: -22px;
+    left: 198px;
+    width: 117px;
+    padding: 0px;
+    display: block;
+    border: 2px solid #000000;
+    height: 30px;
+    border-radius: inherit;
+    font: 14px Opensans;
+    padding-left: 5px;
+  }
+  .cbo-rol option:first-child{
+    display: none;
+  }
+  
+  #cbo-rol{
+    margin: -4px;
+    position: relative;
+    top: -22px;
+    left: 198px;
+    width: 117px;
+    padding: 0px;
+    display: block;
+    border: 2px solid #000000;
+    height: 30px;
+    border-radius: inherit;
+    font: 14px Opensans;
+    padding-left: 5px;
+  }
+  
+  
+  .label-rol{
+    position: relative;
+    font-weight: bold;
+    top: 10px;
+    left: 100px;
+  }
+  .label-estado{
+    position: relative;
+    font-weight: bold;
+    top: 10px;
+    left: 100px;
+  }

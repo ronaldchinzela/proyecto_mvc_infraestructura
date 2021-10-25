@@ -32,6 +32,13 @@
          return $format;
      }
      
+     //función para mostrar los modals
+     function getModal(string $nameModal, $data)
+     {
+        $view_modal = "Views/Template/Modals/{$nameModal}.php";
+        require_once $view_modal;
+     }
+     
      //funciones para evitar inyecciones sql en los formularios
      function strClean($strCadena){
         $string = preg_replace(['/\s+/','/^\s|\s$/'],[' ',''], $strCadena); //eliminando exceso de espacios entre palabras
